@@ -71,10 +71,20 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Lib\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>Lib\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
     <Reference Include="WillsWackyManagers">
       <HintPath>Lib\WillsWackyManagers.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>Lib\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
+  
+	<ItemGroup>
+	  <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+	</ItemGroup>
 
 </Project>
